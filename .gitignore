@@ -1,0 +1,15 @@
+.gradle/
+.tools/
+app/build/
+build/
+_apk_inspect/
+_apk_inspect2/
+local.properties
+badcase截图1.jpg
+豆瓣套壳应用图标（未裁剪）.jpg
+*.tmp
+*_tmp
+*.apk.1.1.apk.1.1_tmp.apk.1.1_tmp
+豆瓣简版-v1.2-滑块修复.apk
+豆瓣简版-v1.3-已看过记录.apk
+豆瓣简版-v1.4-登录状态-最近上映-小野猪图标.apk

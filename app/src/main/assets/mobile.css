@@ -1,0 +1,291 @@
+:root {
+    color-scheme: light;
+    --dl-bg: #ffffff;
+    --dl-surface: #f7f7f5;
+    --dl-text: #252523;
+    --dl-muted: #6c6c67;
+    --dl-line: #deded9;
+    --dl-link: #006b20;
+}
+
+html,
+body {
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    background: var(--dl-bg) !important;
+    color: var(--dl-text) !important;
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+    letter-spacing: 0 !important;
+    -webkit-text-size-adjust: 100% !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box !important;
+}
+
+#wrapper,
+.wrapper,
+#content,
+.content,
+.grid-16-8,
+.grid-16-8 .article,
+.grid-16-8 .aside,
+.article,
+.aside,
+.subjectwrap,
+.subject,
+.review-list,
+.comment-list,
+main {
+    float: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 760px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#wrapper,
+.wrapper,
+#content,
+.content,
+main {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+}
+
+.grid-16-8 .aside,
+.aside {
+    margin-top: 24px !important;
+}
+
+#db-global-nav,
+#db-nav-movie,
+.TalionNav,
+.TalionNav-static,
+.download-app,
+.open-app,
+.app-download,
+.app-promotion,
+.mobile-app-entrance,
+[class*="download-app"],
+[class*="open-app"],
+[class*="app-banner"],
+[id^="dale_"],
+.advertisement {
+    display: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+span,
+div,
+a,
+button,
+input,
+textarea,
+select {
+    letter-spacing: 0 !important;
+}
+
+h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.35 !important;
+}
+
+h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+}
+
+h3,
+h4 {
+    font-size: 1.08rem !important;
+    line-height: 1.45 !important;
+}
+
+p,
+li,
+.comment-content,
+.review-content,
+.short-content,
+.all.hidden {
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    overflow-wrap: anywhere !important;
+}
+
+a {
+    color: var(--dl-link) !important;
+    overflow-wrap: anywhere !important;
+}
+
+img,
+video {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+iframe {
+    max-width: 100% !important;
+}
+
+[class*="app-popup"],
+[class*="download-popup"],
+[class*="promotion-popup"],
+[class*="advert-popup"],
+[class*="ad-popup"],
+[class*="open-app-pop"] {
+    display: none !important;
+}
+
+input,
+textarea,
+select,
+button,
+.btn,
+.a-btn,
+[role="button"] {
+    min-height: 42px !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    min-width: 24px !important;
+    min-height: 24px !important;
+}
+
+textarea,
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="tel"] {
+    width: 100% !important;
+    padding: 10px !important;
+}
+
+#interest_sectl,
+.interest_sectl,
+.rating_wrap,
+.rating_self {
+    float: none !important;
+    width: 100% !important;
+    margin: 16px 0 !important;
+}
+
+.comment-item,
+.review-item,
+.review-list > div,
+.comments-section > div {
+    max-width: 100% !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    border-color: var(--dl-line) !important;
+}
+
+table {
+    display: block !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+}
+
+pre,
+code {
+    white-space: pre-wrap !important;
+    overflow-wrap: anywhere !important;
+}
+
+html.douban-lite-dark {
+    color-scheme: dark;
+    --dl-bg: #151514;
+    --dl-surface: #20201e;
+    --dl-text: #eeeeea;
+    --dl-muted: #aaa9a3;
+    --dl-line: #3a3a36;
+    --dl-link: #64c27b;
+    background: var(--dl-bg) !important;
+}
+
+html.douban-lite-dark body,
+html.douban-lite-dark #wrapper,
+html.douban-lite-dark #content,
+html.douban-lite-dark .wrapper,
+html.douban-lite-dark .content,
+html.douban-lite-dark .article,
+html.douban-lite-dark .aside,
+html.douban-lite-dark main,
+html.douban-lite-dark section,
+html.douban-lite-dark .card,
+html.douban-lite-dark .comment-item,
+html.douban-lite-dark .review-item {
+    background-color: var(--dl-bg) !important;
+    color: var(--dl-text) !important;
+}
+
+html.douban-lite-dark input,
+html.douban-lite-dark textarea,
+html.douban-lite-dark select,
+html.douban-lite-dark button {
+    background-color: var(--dl-surface) !important;
+    border-color: var(--dl-line) !important;
+    color: var(--dl-text) !important;
+}
+
+html.douban-lite-dark .pl,
+html.douban-lite-dark .greyinput,
+html.douban-lite-dark .comment-info,
+html.douban-lite-dark .review-meta {
+    color: var(--dl-muted) !important;
+}
+
+/* === 登录页适配:accounts.douban.com/passport/login 是 1040px 死宽 SPA === */
+#account,
+#account .nav-primary,
+.account-wrap,
+.account-main,
+.account-side,
+.login-wrap,
+.login {
+    float: none !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.account-side {
+    margin-top: 20px !important;
+}
+
+#account img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* === www.douban.com 未登录宣传页兜底:大图为背景图时压住整页宽度 === */
+#anony-reg-new,
+.anonymous,
+.sns-website,
+#anony-nav,
+#anony-sns {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    background-size: contain !important;
+    background-position: center top !important;
+}
